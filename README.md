@@ -18,7 +18,7 @@ Descripción: Acceso inicial exitoso al servidor. Se confirma que el servicio es
 
 4. Administración e Intervención 
 ![Navegación Terminal](navegacion_por_el_contenedor_y_edicion_del_contenido.jpg)
-![Web Modificada](modificacion_de_contenido.jpeg)
+![Web Modificada](modificacion_del_contenido.jpeg)
 
 Descripción: Este es el núcleo técnico. Muestra cómo usaste exec -it para navegar el sistema de archivos de Linux y cómo alteraste el index.html. El resultado es el mensaje: "Propiedad de la Prefectura - Guardia de Jose".
 
