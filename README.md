@@ -24,7 +24,8 @@ Descripción: Acceso inicial exitoso al servidor. Se confirma que el servicio es
 ![Navegación Terminal](navegacion_por_el_contenedor_y_edicion_del_contenido.jpg)
 ![Web Modificada](modificacion_del_contenido.jpeg)
 
-Descripción: Este es el núcleo técnico. Muestra cómo usaste exec -it para navegar el sistema de archivos de Linux y cómo alteraste el index.html. El resultado es el mensaje: "Propiedad de la Prefectura - Guardia de Jose".
+Descripción: Este es el núcleo técnico. Muestra cómo se utiñozp  exec -it para navegar el sistema de archivos de Linux y alterando index.html.
+El resultado es el mensaje: "Propiedad de la Prefectura - Guardia de Jose".
 
 5. Auditoría y Análisis Forense
 ![Logs de evidencia](analisis_de_los_logs_de_evidencia.jpg)
