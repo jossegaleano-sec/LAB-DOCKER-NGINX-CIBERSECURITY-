@@ -24,13 +24,25 @@ Descripción: Acceso inicial exitoso al servidor. Se confirma que el servicio es
 ![Navegación Terminal](navegacion_por_el_contenedor_y_edicion_del_contenido.jpg)
 ![Web Modificada](modificacion_del_contenido.jpeg)
 
-Descripción: Este es el núcleo técnico. Muestra cómo se utiñozp  exec -it para navegar el sistema de archivos de Linux y alterando index.html.
+Descripción: Este es el núcleo técnico. Muestra cómo se utilizo  "exec -it" para navegar el sistema de archivos de Linux, alterando "index.html".
 El resultado es el mensaje: "Propiedad de la Prefectura - Guardia de Jose".
 
 5. Auditoría y Análisis Forense
 ![Logs de evidencia](analisis_de_los_logs_de_evidencia.jpg)
 
-Descripción: Análisis de los registros de acceso. Se explican los códigos HTTP 304 (cache) y 200 (éxito post-modificación), identificando el tamaño de la respuesta de 54 bytes.
+Identificación del Actor: Se registra la IP de origen 172.17.0.1 (Docker Bridge), lo que permite rastrear desde qué interfaz se originó el tráfico.
+
+Análisis de Códigos de Respuesta:
+
+HTTP 304 (Not Modified): Indica que en la primera solicitud el navegador utilizó el caché, ya que el archivo index.html no había sufrido cambios.
+
+HTTP 200 (OK): Registra el éxito de la petición tras la modificación del contenido. El servidor entregó el nuevo recurso correctamente.
+
+Detección de Alteración (Data Size):
+
+Se observa que la respuesta exitosa tiene un peso de 54 bytes. En una investigación real, un cambio repentino en el tamaño de los paquetes servidos (Payload) es un indicador de compromiso (IoC) que sugiere que el contenido original fue reemplazado o inyectado con código malicioso.
+
+Huella Digital del Navegador: El User-Agent revela el uso de Mozilla/5.0 en un sistema Linux x86_64 (nuestra máquina Kali), permitiendo perfilar al usuario que interactuó con el activo.
 
 6. Higiene del Sistema
 
