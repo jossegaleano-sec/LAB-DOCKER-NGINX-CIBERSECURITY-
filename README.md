@@ -42,7 +42,7 @@ Detección de Alteración (Data Size):
 
 Se observa que la respuesta exitosa tiene un peso de 54 bytes. En una investigación real, un cambio repentino en el tamaño de los paquetes servidos (Payload) es un indicador de compromiso (IoC) que sugiere que el contenido original fue reemplazado o inyectado con código malicioso.
 
-Huella Digital del Navegador: El User-Agent revela el uso de Mozilla/5.0 en un sistema Linux x86_64 (nuestra máquina Kali), permitiendo perfilar al usuario que interactuó con el activo.
+Huella Digital del Navegador: El User-Agent revela el uso de Mozilla/5.0 en un sistema Linux x86_64 (maquina utilizada), permitiendo perfilar al usuario que interactuó con el activo.
 
 6. Higiene del Sistema
 
