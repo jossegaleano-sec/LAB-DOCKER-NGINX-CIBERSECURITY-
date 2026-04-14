@@ -33,6 +33,7 @@ El resultado es el mensaje: "Propiedad de la Prefectura - Guardia de Jose".
 Descripción: Análisis de los registros de acceso. Se explican los códigos HTTP 304 (cache) y 200 (éxito post-modificación), identificando el tamaño de la respuesta de 54 bytes.
 
 6. Higiene del Sistema
-![cierre y limpieza](higiene y cierre de docker.jpeg) 
+
+![cierre y limpieza](higiene_y_cierre_de_docker.jpeg) 
 
 Descripción: Cierre del ciclo de vida del contenedor mediante stop y rm. Muestra responsabilidad en la gestión de recursos del sistema.
