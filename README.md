@@ -5,7 +5,7 @@ Laboratorio experimental, donde se usa la herramienta docker desde un kali linux
 ![Configuración de Red](config_red.jpeg)
 ![Estado de Docker](status_docker.jpeg)
 
-Descripción: Configuración del adaptador NAT en VirtualBox y validación del demonio de Docker en Kali Linux. Demuestra que el sistema está listo y el servicio habilitado (enabled).
+Descripción: Configuración del adaptador NAT en VirtualBox y validación del dominio de Docker en Kali Linux. Demuestra que el sistema está listo y el servicio habilitado (enabled).
 
 2. Despliegue del Activo
 ![creacion del contenedor con puerto 8080](contruccion_docker_8080.jpeg)
