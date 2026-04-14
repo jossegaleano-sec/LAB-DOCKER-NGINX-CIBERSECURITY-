@@ -12,6 +12,7 @@ Descripción: Configuración del adaptador NAT en VirtualBox y validación del d
 
 
 Descripción: Creación del contenedor Nginx con mapeo de puertos. El puerto 8080 queda expuesto para auditoría.
+
 Troubleshooting de sintaxis, Se identificó que Docker no reconocía el comando por falta de espacios. Se corrigió y se validó la ejecución."
 
 3. Verificación de Disponibilidad
