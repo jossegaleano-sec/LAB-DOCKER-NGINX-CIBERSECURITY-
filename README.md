@@ -16,7 +16,7 @@ Descripción: Creación del contenedor Nginx con mapeo de puertos. El puerto 808
 
 Descripción: Acceso inicial exitoso al servidor. Se confirma que el servicio es funcional y responde a peticiones HTTP externas.
 
-4. Administración e Intervención (La joya del repo)
+4. Administración e Intervención 
 ![Navegación Terminal](navegacion_por_el_contenedor_y_edicion_del_contenido.jpg)
 ![Web Modificada](modificacion_de_contenido.jpeg)
 
