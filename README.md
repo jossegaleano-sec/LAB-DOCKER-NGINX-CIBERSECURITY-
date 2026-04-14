@@ -12,7 +12,7 @@ Descripción: Configuración del adaptador NAT en VirtualBox y validación del d
 Descripción: Creación del contenedor Nginx con mapeo de puertos. El puerto 8080 queda expuesto para auditoría.
 
 3. Verificación de Disponibilidad
-![pagina de inicio](pagina inicio nginx.jpeg)
+![pagina de inicio](pagina_inicio_nginx.jpeg)
 
 Descripción: Acceso inicial exitoso al servidor. Se confirma que el servicio es funcional y responde a peticiones HTTP externas.
 
