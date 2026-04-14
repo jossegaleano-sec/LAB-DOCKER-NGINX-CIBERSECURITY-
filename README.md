@@ -8,7 +8,7 @@ Laboratorio experimental, donde se usa la herramienta docker desde un kali linux
 Descripción: Configuración del adaptador NAT en VirtualBox y validación del demonio de Docker en Kali Linux. Demuestra que el sistema está listo y el servicio habilitado (enabled).
 
 2. Despliegue del Activo
-![creacion del contenedor con puerto 8080](contruccion_docker_8080)
+![creacion del contenedor con puerto 8080](contruccion_docker_8080.jpeg)
 
 
 Descripción: Creación del contenedor Nginx con mapeo de puertos. El puerto 8080 queda expuesto para auditoría.
