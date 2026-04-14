@@ -1,5 +1,5 @@
 # LAB-DOCKER-NGINX-CIBERSECURITY-
-Laboratorio experimental, donde se usa la herramienta docker desde un kali linux, en una maquina virtual
+Laboratorio experimental, donde se usa la herramienta docker desde un kali linux, en una maquina virtual.
 
 1. Preparación del Entorno
 ![Configuración de Red](config_red.jpeg)
